@@ -1,5 +1,5 @@
 from abc import ABC
-from battery import Battery
+from battery.battery import Battery
 from datetime import datetime
 
 class SpindlerBattery(Battery, ABC):

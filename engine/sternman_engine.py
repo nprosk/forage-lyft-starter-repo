@@ -1,5 +1,5 @@
 from abc import ABC
-from engine import Engine
+from engine.engine import Engine
 
 class SternmanEngine(Engine, ABC):
     def __init__(self, warning_light_is_on):
